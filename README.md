@@ -1,4 +1,5 @@
-A Simple Dynamic Basic Bank Management System
+A Simple Dynamic Basic Bank Management System.
+
 Frontend - HTML, CSS , JS
 Backend - PHP
 Database - MySQL
