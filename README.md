@@ -1,56 +1,14 @@
-# Sparks Foundation - Basic Banking System
+A Simple Dynamic Basic Bank Management System
+Frontend - HTML, CSS , JS
+Backend - PHP
+Database - MySQL
+Created a dummy database for 10 customers. Customer table has basic fields such as Name, Email, Address and Current Balance. Transfer table records all transfers that happened.
 
-## Index
-- [Description](#Description)
-- First Time Installation
-- How To Run
-- Screenshort
+When the user clicks on the "View Customers" button on the home page, the users which have been entered in the database are displayed. The user clicks on the "Send" option, and a window is displayed where the user can choose the receiver and then enter the amount to be transferred. And when the user clicks on submit, the transaction can view the transaction history.
 
-## Description
-- This a Internship project by Sparks Foundation.
-- This project is built on HTML/CSS, Bootstrap, PHP and MySQL.
-- Details of Customers are maintained as `Name`, `Email`, `Amount` are fields.
-- Transaction is done through PDO, If some Error occured while Transaction changes made to table is Rollback(Reverted).  
+The amount which is entered, is added to the receiver's current balance and subtracted from the sender's balance.
 
-## First Time Installation
-- Clone the Repository.
-- Make sure you have installed XAMP on your computer.
-- Copy this folder(Sparks-Foundation) to XAMP installation Directory and then inside htdocs folder.
-
-```
-For Example
-C:\xampp\htdocs\
-```
-- Open Xamp Control Panel. Click on Start button near Apache and MySQL.
-- Open browser type the following into search bar.
-```
-http://localhost/Sparks-Foundation/firsttime.php
-```
-- If everything works fine you would see this on your browser.
-```
-Conection was established Succesfully.
-DATABASE Created Successfully.
-Customer Table Created Successfully.
-Entries added to table Successfully.
-Transaction Table Created Successfully.
-```
-- This means that you have created a database name bank, a table name customers also added 10 entries to table and finally creating a table name Transaction.
-
-## How To Run
-- After following steps above(First Time Installation).
-- Make Sure XAMP is active with Apache and MySQL Server Enabled.
-- Open Browser Enter the following URL:
-```
-http://localhost/Sparks-Foundation/
-```
-OR
-```
-http://localhost/Sparks-Foundation/index.php
-```
-- You will land to Homepage of Money Bank Website.
-- Click On `View all Customer` from Navigation OR `Get Started` button for viewing detail of all Customers.
-- You will see Customer details in table with deatils like(Name, Email, Current balance, etc.).
-- Click on `Send` Button Corresponding Any row of table.
-- Now We are on Money Transfering Page. Now Enter a Valid Name in `To` textbox and also Enter Amount, Click on checkbox and finally Click on `Send` Button To Start Transfer.
-- Make sure the Amount you enter is not grator then current balance of the Person Selected, else it will pop Message.
-- If the Transaction is successful Message will displayed and Changes made by above Transaction will be updated to customer table. 
+![Screenshot (3)](https://github.com/Ronith7/Basic-Banking-System/assets/119938068/58a54431-6537-4e8a-8eff-c39b14987f9c)
+![Screenshot (4)](https://github.com/Ronith7/Basic-Banking-System/assets/119938068/6fc2e4da-6010-4f4e-8aca-bdeedd06f147)
+![Screenshot (5)](https://github.com/Ronith7/Basic-Banking-System/assets/119938068/dfc10399-d3ea-413e-9c36-2b94e08c3134)
+![Screenshot (7)](https://github.com/Ronith7/Basic-Banking-System/assets/119938068/fc84ebab-fb98-4f42-9110-91ce1fc4d5c9)
